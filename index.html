@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <!-- toastify CSS  -->
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>JavaScript Exam</title>
+</head>
+<body id="disply-none">
+    <div class="container">
+    <div class="form-box">
+    <h1 class="title" id="title">Sign Up</h1>
+    <div class="underline"></div>
+        <form>
+            <div class="input-group" id="input-group">
+
+                <div class="input-field">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="email" placeholder="Email" id="email" required>
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" placeholder="Password" id="password" required>
+                </div>
+                <p id="pass"><span class="text">Password Suggestions </span><a href=""> Click Here!</a></p>
+            </div>
+
+            <div class="btn-field">
+                <button type="button" class="signupBtn" onclick="signUp()">Sign Up</button>
+                <button type="button" class="disable signInBtn" onclick="signIn()"  href="demo.html">Sign In</button>
+            </div>
+
+        </form>
+    </div>
+    </div>
+    <!-- toastify JS  -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
